@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: com.jinrong.pdf.comp.MainFrame
+Class-Path: itext-asian.jar itext-hyph-xml.jar itextpdf-5.5.5.jar xmlbea
+ ns-2.6.0.jar slf4j-api-1.6.2.jar itext-pdfa-5.5.5.jar itext-xtra-5.5.5.
+ jar poi-3.11-20141221.jar bcpkix-jdk15on-1.48.jar bcprov-jdk15on-1.48.j
+ ar logback-core-0.9.30.jar logback-classic-0.9.30.jar poi-ooxml-3.11-20
+ 141221.jar poi-ooxml-schemas-3.11-20141221.jar
+

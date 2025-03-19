@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="9.0" transformSequenceNumber="3">
+  <directoryPresets config="F:/java_workspace/PDFooter/lib" />
+  <application name="PDFooter" distributionSourceDir="F:/java_workspace/PDFooter" />
+  <executable name="PDFooter" wrapperType="embed" executableMode="gui" />
+  <java mainClass="com.jinrong.pdf.comp.MainFrame" minVersion="1.7" maxVersion="12">
+    <searchSequence>
+      <directory location="./jre" />
+    </searchSequence>
+    <classPath>
+      <archive location="F:/java_workspace/PDFooter/PDFooter_jar2/PDFooter.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/logback-classic-0.9.30.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/slf4j-api-1.6.2.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/bcpkix-jdk15on-1.48.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/bcprov-jdk15on-1.48.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/itext-asian.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/itext-hyph-xml.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/itextpdf-5.5.5.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/itext-pdfa-5.5.5.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/itext-xtra-5.5.5.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/logback-classic-0.9.30.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/logback-core-0.9.30.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/poi-3.11-20141221.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/poi-ooxml-3.11-20141221.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/poi-ooxml-schemas-3.11-20141221.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/slf4j-api-1.6.2.jar" failOnError="false" />
+      <archive location="F:/java_workspace/PDFooter/lib/xmlbeans-2.6.0.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
