@@ -43,17 +43,18 @@ public class ExcelParser {
                         LOGGER.error("Row {} is null. Skip it.", new Object[] { Integer.valueOf(j) });
                     } else {
                         String[] data = new String[4];
-                        XSSFCell cell0 = row.getCell(0);
-                        data[0] = (cell0 != null) ? cell0.toString().trim().replaceAll("\\.0", "") : "";
-                        XSSFCell cell1 = row.getCell(1);
-                        XSSFCell cell2 = row.getCell(2);
+                        //XSSFCell cell0 = row.getCell(0);
+                        //data[0] = (cell0 != null) ? cell0.toString().trim().replaceAll("\\.0", "") : "";
+                        data[0]=Integer.toString(j+1);
+                        XSSFCell cell1 = row.getCell(0);
+                        XSSFCell cell2 = row.getCell(1);
                         String text1 = (cell1 != null) ? cell1.getStringCellValue() : "";
                         String text2 = (cell2 != null) ? cell2.toString().trim() : "";
                         if (StringUtil.isBlank(text1) && StringUtil.isBlank(text2)) {
                             LOGGER.error("Footer text not found. Row {}.", new Object[] { Integer.valueOf(j) });
                         } else {
                             StringBuffer text = new StringBuffer();
-                            text.append(text1).append("    ").append(text2);
+                            text.append(text1).append(" ").append(text2);
                             data[1] = text.toString();
                             XSSFCell cell3 = row.getCell(3);
                             String text3 = (cell3 != null) ? cell3.toString().trim().replaceAll("\\.0", "") : "";
